@@ -35,8 +35,6 @@ Spring Boot REST API for creating, reading, updating, and deleting events. Inclu
 
 API base URL: `http://localhost:8080/api/events`
 
-Swagger UI: `http://localhost:8080/swagger-ui/index.html`
-
 ### Test
 ```bash
 ./mvnw test
