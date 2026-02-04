@@ -1,4 +1,4 @@
-package org.example.exception;
+package com.eventmanagement.exception;
 
 import org.springframework.web.bind.annotation.*;
 

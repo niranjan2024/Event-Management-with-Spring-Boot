@@ -1,4 +1,4 @@
-package org.example.exception;
+package com.eventmanagement.exception;
 
 public class EventNotFoundException extends RuntimeException {
     public EventNotFoundException(String message) {

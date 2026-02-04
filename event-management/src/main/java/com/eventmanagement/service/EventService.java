@@ -1,7 +1,7 @@
-package org.example.service;
+package com.eventmanagement.service;
 
 import java.util.List;
-import org.example.entity.Event;
+import com.eventmanagement.entity.Event;
 
 public interface EventService {
 

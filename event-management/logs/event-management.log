@@ -1,0 +1,56 @@
+2026-02-04 10:16:12 INFO  Main - Starting Event Management Application...
+2026-02-04 10:16:13 INFO  Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-04 10:16:13 INFO  Main - Starting Main using Java 21.0.9 with PID 6436 (C:\Users\Admin\Downloads\event-management\target\classes started by Admin in C:\Users\Admin\Downloads\event-management)
+2026-02-04 10:16:13 DEBUG Main - Running with Spring Boot v3.3.2, Spring v6.1.11
+2026-02-04 10:16:13 INFO  Main - No active profile set, falling back to 1 default profile: "default"
+2026-02-04 10:16:14 INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-04 10:16:14 INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2026-02-04 10:16:14 INFO  TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-04 10:16:14 INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-04 10:16:14 INFO  StandardService - Starting service [Tomcat]
+2026-02-04 10:16:14 INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2026-02-04 10:16:14 INFO  [/] - Initializing Spring embedded WebApplicationContext
+2026-02-04 10:16:14 INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1345 ms
+2026-02-04 10:16:15 INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-04 10:16:15 INFO  Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-02-04 10:16:15 INFO  RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-04 10:16:15 INFO  SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-04 10:16:15 INFO  HikariDataSource - HikariPool-1 - Starting...
+2026-02-04 10:16:16 INFO  HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d512c1
+2026-02-04 10:16:16 INFO  HikariDataSource - HikariPool-1 - Start completed.
+2026-02-04 10:16:16 WARN  deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-04 10:16:16 WARN  deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-02-04 10:16:17 INFO  JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-04 10:16:17 INFO  LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-04 10:16:17 WARN  JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-04 10:16:17 INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-04 10:16:17 INFO  TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-04 10:16:17 INFO  Main - Started Main in 4.729 seconds (process running for 5.809)
+2026-02-04 10:16:17 INFO  Main - Event Management Application started successfully
+2026-02-04 10:17:50 INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-04 10:17:50 INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-04 10:17:50 INFO  DispatcherServlet - Completed initialization in 11 ms
+2026-02-04 10:17:50 INFO  EventController - Request received to fetch all events
+2026-02-04 10:17:50 DEBUG EventServiceImpl - Fetching all events from database
+2026-02-04 10:17:51 INFO  EventServiceImpl - Fetched 2 events
+2026-02-04 10:17:51 DEBUG EventController - Total events fetched: 2
+2026-02-04 10:19:00 INFO  EventController - Request received to create event: Tech Conference
+2026-02-04 10:19:00 DEBUG EventServiceImpl - Creating event: Event(id=null, name=Tech Conference, location=Hyderabad, date=2026-03-15, organizer=Event Corp)
+2026-02-04 10:19:01 INFO  EventServiceImpl - Event created successfully with id: 4
+2026-02-04 10:19:01 INFO  EventController - Event created successfully with id: 4
+2026-02-04 10:19:19 INFO  EventController - Request received to fetch all events
+2026-02-04 10:19:19 DEBUG EventServiceImpl - Fetching all events from database
+2026-02-04 10:19:19 INFO  EventServiceImpl - Fetched 3 events
+2026-02-04 10:19:19 DEBUG EventController - Total events fetched: 3
+2026-02-04 10:19:37 INFO  EventController - Request received to fetch event with id: 4
+2026-02-04 10:19:37 DEBUG EventServiceImpl - Fetching event with id: 4
+2026-02-04 10:20:04 INFO  EventController - Request received to update event with id: 4
+2026-02-04 10:20:04 INFO  EventServiceImpl - Updating event with id: 4
+2026-02-04 10:20:04 DEBUG EventServiceImpl - Fetching event with id: 4
+2026-02-04 10:20:04 INFO  EventServiceImpl - Event updated successfully with id: 4
+2026-02-04 10:20:04 INFO  EventController - Event updated successfully with id: 4
+2026-02-04 10:20:33 WARN  EventController - Request received to delete event with id: 4
+2026-02-04 10:20:33 WARN  EventServiceImpl - Deleting event with id: 4
+2026-02-04 10:20:33 DEBUG EventServiceImpl - Fetching event with id: 4
+2026-02-04 10:20:33 INFO  EventServiceImpl - Event deleted successfully with id: 4
+2026-02-04 10:20:33 INFO  EventController - Event deleted successfully with id: 4

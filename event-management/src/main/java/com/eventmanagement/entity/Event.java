@@ -1,10 +1,11 @@
-package org.example.entity;
+package com.eventmanagement.entity;
 
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
+@Table(name = "event")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,4 +20,3 @@ public class Event {
     private String date;
     private String organizer;
 }
-
